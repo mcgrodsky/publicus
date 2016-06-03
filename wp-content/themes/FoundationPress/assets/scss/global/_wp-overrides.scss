@@ -28,3 +28,19 @@ p.wp-caption-text{
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.button{
+  background-color: #2edd86;
+  font-size: 18px!important;
+  font-weight: 600!important;
+  letter-spacing: 1px!important;
+  font-family: Lato!important;
+}
+
+.button-primary{
+  @extend .button;
+}
+
+.input-group-field{
+  height: 3.2rem!important;
+}

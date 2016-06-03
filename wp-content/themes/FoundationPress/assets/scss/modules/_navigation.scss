@@ -13,7 +13,7 @@
 .off-canvas {
  > ul.menu {
     height: 100vh;
-    padding: 1rem;
+    padding: 1.3rem;
   }
 }
 
@@ -28,32 +28,40 @@
 .top-bar {
 
   .menu .home a {
-    font-size: 1rem;
-    color: #B9B9B9;
+    font-size: 30px;
+    color: #2edd86;
+    letter-spacing: 4px;
+    font-weight: 600;
+
+    &:hover:not(.button) {
+      background-color: transparent;
+    }
   }
 
   .menu a {
-    height: 45px;
+    height: 70px;
     line-height: 45px;
     color: #e6e6e6;
     padding-top: 0;
     padding-bottom: 0;
     font-weight: bold;
-    font-size: 0.8rem;
+    font-size: 18px;
     line-height: 1;
+    font-weight: 500;
 
     &:hover:not(.button) {
-      background-color: #2a2a2a;
+      background-color: #595959;
+
     }
   }
 
-  .menu>li:not(.menu-text)>a { padding: 1rem; }
-  .menu li:not(:last-child) { border-right: 1px solid #4e4e4e; }
+  .menu>li:not(.menu-text)>a { padding: 1.3rem; }
+  .menu li:not(:last-child) { border-right: 1px solid #fff; }
 
   .dropdown.menu .submenu {
-    background-color: #121212;
+    background-color: #093E61;
     color: #e6e6e6;
-    border: 0;
+    border: 1px solid white;
   }
 
   .dropdown.menu .has-submenu.is-down-arrow a { padding-right: 1rem; }
@@ -65,4 +73,37 @@
       display: none;
     }
 
+}
+
+//new styles for main nav menu
+
+.top-bar-right{
+    a{
+      font-size: 20px;
+
+    }
+}
+
+.nav-logo{
+  background-color: #093E61;
+  font-size: 25px;
+  color: #2edd86;
+}
+
+.nav-logo a{
+  font-size: 25px;
+}
+
+.button{
+  background-color: #2edd86;
+}
+
+.button:hover, .button:focus {
+  background-color: #9e9e9e;
+}
+
+.menu {
+  .active a{
+    background: #595959;
+  }
 }
