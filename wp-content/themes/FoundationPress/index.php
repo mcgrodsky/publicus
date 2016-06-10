@@ -14,7 +14,7 @@
  */
 
 get_header(); ?>
-
+<h1> tester</h1>
 <div id="page" role="main">
 	<article class="main-content">
 	<?php if ( have_posts() ) : ?>

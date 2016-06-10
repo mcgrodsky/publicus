@@ -17,6 +17,9 @@
 				<?php dynamic_sidebar( 'footer-widgets' ); ?>
 				<?php do_action( 'foundationpress_after_footer' ); ?>
 				<p> Copyright publicus </p>
+				<p> Terms & Conditions </p>
+				<p> Privacy Policy </p>
+				<p> Contact Us </p>
 			</footer>
 		</div>
 

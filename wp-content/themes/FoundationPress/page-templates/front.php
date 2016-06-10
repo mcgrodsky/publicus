@@ -6,12 +6,19 @@ get_header(); ?>
 
 <header id="front-hero" role="banner">
   <div class="marketing">
-    <div class="tagline">
+    <div class="front-text">
+      <h4 class="front-hero-text">Publicus is an open platform for researchers to instantly share and collectively review new work. With Publicus, research will be reviewed by a community of peers and evaluated based on its own merits, not its affiliations. <strong>Welcome to research for the 21st century.</strong></h4>
+    </div>
+    <div class="front-img">
+    <img width="512" alt="Carina Nebula in visible light (captured by the Hubble Space Telescope)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Carina_Nebula_in_visible_light_%28captured_by_the_Hubble_Space_Telescope%29.jpg/512px-Carina_Nebula_in_visible_light_%28captured_by_the_Hubble_Space_Telescope%29.jpg"/></a>
+    </div>
+    <!-- <div class="tagline">
       <h1><?php bloginfo( 'name' ); ?></h1>
       <h4 class="subheader"><?php bloginfo( 'description' ); ?></h4>
-    </div>
+    </div> -->
   </div>
 </header>
+
 
 <?php do_action( 'foundationpress_before_content' ); ?>
 <?php while ( have_posts() ) : the_post(); ?>

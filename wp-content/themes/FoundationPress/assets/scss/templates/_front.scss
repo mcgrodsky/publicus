@@ -1,9 +1,10 @@
 // Page header
 #front-hero {
+  margin-bottom: 0;
   .marketing {
     @include grid-row();
     max-width: 60rem;
-    background: #333;
+    padding-top: 3em;
   }
 
   @include breakpoint(small) {
@@ -109,6 +110,19 @@
     color: #fefefe;
     font-weight: 300;
     font-size: 1.3125rem;
+  }
+
+  .front-hero-text{
+    color: #595959;
+    padding: 1.5em 1em 0 0;
+    line-height: 35px;
+    width: 50%;
+    float: left;
+  }
+
+  .front-img{
+    width: 50%;
+    float: left;
   }
 
   .download { margin-top: rem-calc(20); }
